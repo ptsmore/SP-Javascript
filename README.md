@@ -1,5 +1,10 @@
 # SP-Javascript
 
+<h3>Delay load function</h3>
+<pre>
+	SP.SOD.executeFunc('sp.js', 'SP.ClientContext', function () {});
+	SP.SOD.executeOrDelayUntilScriptLoaded(getalldata ,"sp.js");
+</pre>
 <h3>Rest basic call sharepoint list</h3>
 <pre>
 	    $.ajax({
