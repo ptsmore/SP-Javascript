@@ -28,7 +28,6 @@
 		ListItem = myList.getItems(query); 
 		clientContext.load(ListItem); 
 		clientContext.executeQueryAsync(mySuccessFunction, myFailFunction);
-
 	}
 	function mySuccessFunction(sender, args) 
 	{
